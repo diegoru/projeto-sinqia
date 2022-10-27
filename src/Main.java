@@ -29,7 +29,8 @@ public class Main {
                     System.out.print(num + ", ");
                 }
                 System.out.println();
-                System.out.println(media(numeros));
+                System.out.println("A média escolhida foi ARITMETICA");
+                System.out.println("Resultado: " + media(numeros));
                 valido = true;
 
             } else if (tipoMedia.equalsIgnoreCase("HARMONICA")) {
@@ -38,7 +39,8 @@ public class Main {
                     System.out.print(num + ", ");
                 }
                 System.out.println();
-                System.out.println(hamonica(numeros));
+                System.out.println("A média escolhida foi HARMONICA");
+                System.out.println("Resultado: " + hamonica(numeros));
                 valido = true;
 
             } else {
